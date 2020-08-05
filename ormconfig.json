@@ -1,0 +1,15 @@
+{
+    "type": "mssql",
+    "host": "ADDSON-NOTE",
+    "username": "sa",
+    "password": "sqlserversystem",
+    "database": "BDTYPEORM",
+    "port": 1433,
+    "options": {        
+        "instaceName": "ADDSONMENDES",
+        "enableArithAbort": true,
+        "encrypt": false
+    },
+    "entities": ["dist/entity/**/*js"]  ,
+    "synchronize": true
+}
